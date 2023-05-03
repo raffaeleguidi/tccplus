@@ -8,6 +8,9 @@ Requires SIP and AMFI to be disabled.
 Currently can only add one or all (not recommended) services at a time. Using `reset All` is fine.
 
 ```
+i.e: to give garageband microphone access
+  tccplus add Microphone com.apple.garageband10
+  
 tccplus [add/reset] SERVICE [BUNDLE_ID]
 Services: 
  - All 
