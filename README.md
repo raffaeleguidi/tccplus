@@ -11,6 +11,12 @@ Currently can only add one or all (not recommended) services at a time. Using `r
 i.e: to give garageband microphone access
   tccplus add Microphone com.apple.garageband10
   
+the bundle id can be retrieved with 
+   codesign -dv /Applications/GarageBand.app
+...
+Identifier=com.apple.garageband10
+...
+  
 tccplus [add/reset] SERVICE [BUNDLE_ID]
 Services: 
  - All 
